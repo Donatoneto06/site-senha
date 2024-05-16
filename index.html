@@ -3,32 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Futebol no Brasil - Página Inicial</title>
+    <title>Sobre o Futebol Brasileiro</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Futebol no Brasil</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Início</a></li>
-                <li><a href="sobre.html">Sobre o Futebol Brasileiro</a></li>
-                <li><a href="estadios.html">Estádios e Cultura</a></li>
-                <li><a href="contato.html">Contato</a></li>
-            </ul>
-        </nav>
-    </header>
-    <section id="news">
-        <h2>Últimas Notícias</h2>
-        <!-- Aqui você pode adicionar os destaques das notícias -->
-    </section>
-    <section id="highlights">
-        <h2>Destaques</h2>
-        <!-- Aqui você pode adicionar vídeos ou fotos dos destaques -->
-    </section>
-    <footer>
-        <p>&copy; 2024 Futebol no Brasil</p>
-    </footer>
+    <main>
+        <section id="content" style="display:none;">
+            <h2>Futebol Brasileiro</h2>
+            <p>O Campeonato Brasileiro atualmente está separado em quatro divisões: Série A, Série B, Série C e Série D. A Série A, B e C têm 20 equipes cada, enquanto a Série D tem 68. A Série A concede vagas à Copa Libertadores para as seis equipes mais bem colocadas, além de seis vagas para a Copa Sul-Americana.</p>
+            <button id="backButton">Voltar</button>
+            <header>
+                <h1>Sobre o Futebol Brasileiro</h1>
+            </header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="sobre.html">Sobre o Futebol Brasileiro</a></li>
+                    <li><a href="estadios.html">Estádios e Cultura</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </section>
+
+        <section id="passwordForm">
+            <h2>Por favor, insira a senha para acessar</h2>
+            <form>
+                <input type="password" id="passwordinput" required>
+                <button type="button" id="submitButton">Acessar</button>
+            </form>
+        </section>
+
+        
+        <footer>
+            <p>&copy; 2024 Futebol no Brasil</p>
+        </footer>
+    </main>
+    <script src="script.js"></script>
 </body>
 </html>
-
